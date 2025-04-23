@@ -1,4 +1,4 @@
-FROM python:3.8-slim
+FROM python:3.13-slim
 LABEL description="Dockerfile for Launcher"
 
 RUN apt-get -q update && \
